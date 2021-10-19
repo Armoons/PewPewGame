@@ -13,6 +13,7 @@
 		AE288B21271CC26D00D50030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE288B1F271CC26D00D50030 /* Main.storyboard */; };
 		AE288B23271CC26F00D50030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE288B22271CC26F00D50030 /* Assets.xcassets */; };
 		AE288B26271CC26F00D50030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE288B24271CC26F00D50030 /* LaunchScreen.storyboard */; };
+		AE720370271F3F420021A4E6 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE72036F271F3F420021A4E6 /* MainButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AE288B20271CC26D00D50030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE288B22271CC26F00D50030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE288B25271CC26F00D50030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE72036F271F3F420021A4E6 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				AE288B15271CC26D00D50030 /* AppDelegate.swift */,
 				AE288B1B271CC26D00D50030 /* GameScene.swift */,
+				AE72036F271F3F420021A4E6 /* MainButton.swift */,
 				AE288B1D271CC26D00D50030 /* GameViewController.swift */,
 				AE288B1F271CC26D00D50030 /* Main.storyboard */,
 				AE288B22271CC26F00D50030 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE720370271F3F420021A4E6 /* MainButton.swift in Sources */,
 				AE288B1C271CC26D00D50030 /* GameScene.swift in Sources */,
 				AE288B1E271CC26D00D50030 /* GameViewController.swift in Sources */,
 				AE288B16271CC26D00D50030 /* AppDelegate.swift in Sources */,
